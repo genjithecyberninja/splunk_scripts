@@ -1,0 +1,22 @@
+splunk forwarder
+
+wget -O link
+
+rpm -i package.rpm
+
+cd /opt/splunkforwarder/bin
+./splunk start --accept-license
+./splunk enable boot-start
+netstat -auntp | grep 9997
+
+
+splunk server
+
+wget -O link
+
+rpm -i package.rpm
+
+cd /opt/splunk/bin
+./splunk start --accept-license
+./splunk enable boot-start
+netstat -auntp | grep 9997
